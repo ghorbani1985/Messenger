@@ -7,6 +7,7 @@ import googleLogo from '../assets/images/svg/google.svg';
 const Login = () => {
   useTitle("ورود به سیستم پشتیبانی وب سایت");
     return (
+      <div className="min-h-screen flex justify-center items-center">
       <div className="w-full md:w-1/2 mr-2 ml-2 md:m-0 flex shadow-2xl flex-col justify-center items-center bg-gray-100 rounded-lg border-2 border-slate-800 border-dotted p-3 md:p-10 text-center">
         <h2 className="text-lg font-bold text-sky-500 my-8 leading-9">
           به نرم افزار پشتیبانی وب سایت خوش آمدید
@@ -16,6 +17,7 @@ const Login = () => {
           <img src={googleLogo} alt="googleLogo" className="w-6 h-6" />
           <span className="mr-2">ورود با حساب کاربری گوگل</span>
         </div>
+      </div>
       </div>
     );
 };
